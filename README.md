@@ -11,4 +11,4 @@ Main Component of Problem Statement includes:
 3. Color Detection
 4. Shape Detection
 
-
+The interfacing of bot with image processing is done using Arduino UNO using Serial library in python
