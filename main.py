@@ -389,7 +389,7 @@ def path(xc,yc):
             array[0][r] = yc * size
             r += 1
         #right
-        if xc + 1 < row and grid[xc+1][yc] != -2and grid[xc+1][yc] < grid[xc][yc]:
+        if xc + 1 < row and grid[xc+1][yc] != -2 and grid[xc+1][yc] < grid[xc][yc]:
             while xc + 1 < row and grid[xc + 1][yc] != -2 and grid[xc+1][yc] < grid[xc][yc]:
                 xc += 1
             d = grid[xc][yc]
